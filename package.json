@@ -1,0 +1,27 @@
+{
+    "name": "enb-lego-xml",
+    "version": "0.0.1",
+    "description": "enb lego xml techs",
+    "dependencies": {
+        "vow": "~0.3.12",
+        "inherit": "2.1.0"
+    },
+    "devDependencies": {
+        "enb": "~0.8.43",
+        "jscs": "~1.0.15",
+        "jshint": "~2.3.0"
+    },
+    "scripts": {
+        "test": "make lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/enb-make/enb-lego-xml.git"
+    },
+    "author": "Marat Dulin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/enb-make/enb-lego-xml/issues"
+    },
+    "homepage": "https://github.com/enb-make/enb-lego-xml"
+}
