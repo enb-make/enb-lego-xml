@@ -1,10 +1,14 @@
 {
     "name": "enb-lego-xml",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "enb lego xml techs",
     "dependencies": {
+        "dom-js": "0.0.9",
         "vow": "~0.3.12",
         "inherit": "2.1.0"
+    },
+    "peerDependencies": {
+        "enb": ">=0.8.45"
     },
     "devDependencies": {
         "enb": "~0.8.43",

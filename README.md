@@ -141,3 +141,21 @@ nodeConfig.addTech([ require('enb-lego-xml/techs/xslt'))({
     args: ['--xinclude']
 }]);
 ```
+
+i18n-keysets-xml
+================
+
+Собирает `?.keysets.<язык>.xml`-файлы на основе `?.keysets.<язык>.js`-файлов.
+
+Используется для локализации xml-страниц.
+
+**Опции**
+
+* *String* **target** — Результирующий таргет. По умолчанию — `?.keysets.{lang}.js`.
+* *String* **lang** — Язык, для которого небходимо собрать файл.
+
+**Пример**
+
+```javascript
+nodeConfig.addTech([ require('enb-lego-xml/techs/i18n-keysets-xml'), { lang: '{lang}' } ]);
+```
